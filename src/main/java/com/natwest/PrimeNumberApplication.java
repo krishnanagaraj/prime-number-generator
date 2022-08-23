@@ -6,9 +6,9 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @EnableCaching
-public class PrimeNumberGeneratorApplication {
+public class PrimeNumberApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PrimeNumberGeneratorApplication.class, args);
+		SpringApplication.run(PrimeNumberApplication.class, args);
 	}
 }
