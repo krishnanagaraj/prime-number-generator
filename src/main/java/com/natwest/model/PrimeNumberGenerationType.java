@@ -6,9 +6,9 @@ package com.natwest.model;
 public enum PrimeNumberGenerationType {
 
     /**
-     * Force brute prime number generator type.
+     * Brute force prime number generator type.
      */
-    FORCE_BRUTE,
+    BRUTE_FORCE,
     /**
      * Sieve eratosthenes prime number generator type.
      */
