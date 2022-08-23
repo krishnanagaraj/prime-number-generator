@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * The type Prime number generator force brute.
+ * Brute force prime number generator.
  */
 public class PrimeNumberBruteForceImpl implements PrimeNumberStrategy {
 

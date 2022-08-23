@@ -5,12 +5,12 @@ import com.natwest.factory.impl.PrimeNumberSieveEratosthenesImpl;
 import com.natwest.model.PrimeNumberGenerationType;
 
 /**
- * The type Prime number generator factory.
+ * Prime number factory.
  */
 public class PrimeNumberFactory {
 
     /**
-     * Create prime number generator strategy.
+     * Create prime number strategy.
      *
      * @param primeNumberGenerationType the prime number generator type
      * @return the prime number generator strategy

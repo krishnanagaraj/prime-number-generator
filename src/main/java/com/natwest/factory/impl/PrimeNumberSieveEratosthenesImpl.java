@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * The type Prime number generator force brute.
+ * SieveEratosthenes prime number generator.
  */
 public class PrimeNumberSieveEratosthenesImpl implements PrimeNumberStrategy {
 

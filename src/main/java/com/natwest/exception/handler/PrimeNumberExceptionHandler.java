@@ -17,6 +17,6 @@ public class PrimeNumberExceptionHandler {
 
     @ExceptionHandler(value = {InvalidInputNumber.class})
     public ResponseEntity<ErrorResponse> exceptionUserNotFound(InvalidInputNumber e) {
-        return new ResponseEntity<>(new ErrorResponse(e.getMessage(), HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE), HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
+        return new ResponseEntity<> (new ErrorResponse(e.getMessage(), HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE), HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE);
     }
 }

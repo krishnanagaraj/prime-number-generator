@@ -6,6 +6,9 @@ import lombok.Data;
 
 import java.util.List;
 
+/**
+ * Prime number API response
+ */
 @Data
 @AllArgsConstructor
 public class Response {

@@ -3,7 +3,7 @@ package com.natwest.factory;
 import java.util.List;
 
 /**
- * The interface Prime number generator strategy.
+ * Prime number strategy.
  */
 public interface PrimeNumberStrategy {
 
