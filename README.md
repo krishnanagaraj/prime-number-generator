@@ -1,18 +1,18 @@
 # prime-number-generator
 RESTful service which calculates and returns all the prime numbers up to and including a number provided.
 
-# Setting up the development environment:
+## Setting up the development environment
 
 1. Install Intellij.
 2. Clone the repository using git clone to your local system.
 3. Use gradle tasks to build the code. For e.g. ./gradlew clean build command will clean and build the repo in local.
 4. All the responses are cached
 
-#Run the application:
+## How to run the application
 
 Run command ./gradlew bootRun to run the application on default port 8080
 
-#Testing:
+## Testing
 
 Get all the prime numbers based on the input value. Specify the type of algorithm in type query param. Values are SIEVE_ERATOSTHENES or BRUTE_FORCE.
 
